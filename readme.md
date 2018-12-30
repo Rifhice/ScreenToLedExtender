@@ -7,9 +7,9 @@ git clone --recurse-submodules https://github.com/Rifhice/ScreenToLedExtender.gi
 Follow this tutorial to setup hardware and all the dependencies.
 https://tutorials-raspberrypi.com/connect-control-raspberry-pi-ws2812-rgb-led-strips/
 
-Command to start the server (to be executed from the folder : rpi_ws281x
+Command to start the server
 ```
-sudo PYTHONPATH=".:build/lib.linux-armv7l-2.7" python examples/server.py
+sudo PYTHONPATH=".:build/lib.linux-armv7l-2.7" python server.py
 ```
 
 To get the input from a webcam use :
